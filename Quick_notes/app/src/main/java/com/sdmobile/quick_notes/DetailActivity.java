@@ -19,7 +19,7 @@ public class DetailActivity extends AppCompatActivity {
         String item = getIntent().getStringExtra("ITEM");
 
         // Set the data to the TextViews
-        detailTextView.setText(R.string.content_label);
+        detailTextView.setText("Notes Content");
         dataNotesTextView.setText(item);
     }
 }
